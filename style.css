@@ -366,6 +366,35 @@
     padding: 24px 230px 23px 235px;
     height: 79px;
     background-color: #222224;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .brand {
+        font-family: 'Lato', serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #FBFBFB;
+    }
+   
+    .logoSocialNetwork {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        
+    }
+    .logo {
+        width: 32px;
+        height: 32px;
+
+        background-color: white;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
