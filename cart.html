@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="box_content">
+        <header class="header">
+        <div class="leftHeaderIcon">
+            <img src="./img/headerPicture/logo.png" alt="logo">
+            <img class="search" src="./img/headerPicture/search.svg" alt="searchIcon">
+        </div>
+        <details class="head_menu_link">
+            <summary>
+                <svg width="32" height="23" viewBox="0 0 32 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 23V20.31H32V23H0ZM0 12.76V10.07H32V12.76H0ZM0 2.69V0H32V2.69H0Z" fill="#E8E8E8"/>
+                    </svg>                    
+            </summary>
+            <div class="content">
+                <details class="content_item">
+                    <summary class="item_summary">
+                           <span class="item_title">MENU</span>                     
+                           <details class="item1_box">
+                                <summary> <span class="item_element1">MAN</span> </summary>
+                                <div class="element_link_box">
+                                    <a href="catalog.html" class="element_link">Accessories</a> 
+                                    <a href="catalog.html" class="element_link">Bags</a> 
+                                    <a href="catalog.html" class="element_link">Denim</a>
+                                    <a href="catalog.html" class="element_link">T-Shirts</a>  
+                                </div>
+                           </details>
+                           <details class="item2_box">
+                            <summary> <span class="item_element2">WOMAN</span> </summary>
+                            <div class="element_link_box">
+                                <a href="#" class="element_link">Accessories</a> 
+                                <a href="#" class="element_link">Jackets & Coats</a> 
+                                <a href="#" class="element_link">Polos</a>
+                                <a href="#" class="element_link">T-Shirts</a>
+                                <a href="#" class="element_link">Shirts</a>  
+                            </div>
+                           </details>
+                           <details class="item3_box">
+                            <summary> <span class="item_element3">KIDS</span> </summary>
+                            <div class="element_link_box">
+                                <a href="#" class="element_link">Accessories</a> 
+                                <a href="#" class="element_link">Jackets & Coats</a> 
+                                <a href="#" class="element_link">Polos</a>
+                                <a href="#" class="element_link">T-Shirts</a>
+                                <a href="#" class="element_link">Shirts</a>
+                                <a href="#" class="element_link">Bags</a>  
+                            </div>
+                           </details>
+                    </summary>
+                </details>
+                
+            </div>
+        </details>
+            <img class="accountButton" src="./img/headerPicture/account.svg" alt="accountIcon">
+            <img class="cartButton" src="./img/headerPicture/cart.svg" alt="carticon">
+    </header>
+    </div>
+
+    <div class="topHeaderCart">
+       <span class="topHeaderCart_Text">SHOPPING CART</span>
+    </div>
+
+    <div class="topCartBlock">
+
+        <div class="itemContainer">
+            <div class="cartItem1">
+                <img src="./img/catalogPicture/item3.png" alt="">
+
+                <div class="cartItem1_Text">
+                    <h2 class="cart_title">MANGO PEOPLE <br>T-SHIRT</h2>
+                    
+                    <div class="itemInfo">
+                       <p class="itemInfoElement">Price: <span class="price">$300</span></p>     
+                       <p class="itemInfoElement">Color: Red</p>
+                       <p class="itemInfoElement">Size: XL</p>
+                       <p class="itemInfoElement">Quantity:	2</p>                  
+                    </div>
+
+                </div>
+            </div>
+            
+    
+            <div class="cartItem2">
+                <img src="./img/catalogPicture/item2_catalog.png" alt="">
+    
+                <div class="cartItem2_Text">
+                    <h2 class="cart_title">MANGO PEOPLE <br>T-SHIRT</h2>
+                    <div class="itemInfo">
+                       <p class="itemInfoElement">Price: <span class="price">$300</span></p>     
+                       <p class="itemInfoElement">Color: Red</p>
+                       <p class="itemInfoElement">Size: XL</p>
+                       <p class="itemInfoElement">Quantity:	2</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="orderBlock">
+            <div class="adressBlock">
+               <span class="adressTitle">SHIPPING ADRESS</span> 
+            
+                <input class="adressBlock_item1 textItem" type="text" placeholder="Bangladesh">
+                <input class="adressBlock_item2 textItem" type="text" placeholder="State">
+                <input class="adressBlock_item3 textItem" type="text" placeholder="Postcode / Zip">
+                <button class="adressBlockButton">GET A QUOTE</button>
+            </div>
+            <div class="finalPrice">
+                <p class="subTotal">SUB TOTAL         $900</p>
+                <p class="grandTotal">GRAND TOTAL     <span class="priceColor"> $900</span></p>
+                <button class="totalButton">PROCEED TO CHECKOUT</button>
+            </div>
+        </div>
+        
+
+
+    </div>
+</body>
+</html>
